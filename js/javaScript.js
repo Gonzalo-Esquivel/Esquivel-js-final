@@ -1,5 +1,5 @@
-alert ("Bienvenidos a LA MORADA")
-cliente ()
+// alert ("Bienvenidos a LA MORADA")
+
 
     function cliente () {
         let nombre = prompt ("Ingrese su nombre").toUpperCase();
@@ -15,7 +15,7 @@ cliente ()
 
 console.warn ("Estas son nuestras mermeladas artesanales")
 
-
+cliente ()
 
 function creoID() {
     return parseInt(Math.random() * 5000)
