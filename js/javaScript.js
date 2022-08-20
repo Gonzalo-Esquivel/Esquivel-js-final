@@ -1,19 +1,3 @@
-// alert ("Bienvenidos a LA MORADA")
-
-
-    function cliente () {
-        let nombre = prompt ("Ingrese su nombre").toUpperCase();
-        while (nombre === "" || nombre === null) {
-        nombre = prompt ("Ingrese su nombre");
-        }
-        let reserva = prompt ("Ingrese su N° de reserva").toUpperCase();
-        while (reserva === "" || reserva === null) {
-        reserva = prompt ("Ingrese su N° de reserva");
-        }
-    console.log ("Bienvenido " + nombre + " reserva N° "+ reserva);
-    }
-
-console.warn ("Estas son nuestras mermeladas artesanales")
 
 cliente ()
 

@@ -4,19 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>La Morada</title>
     <link rel="stylesheet" href="./CSS/estilo.css">
     <script defer src="./js/reserva.js"></script>
+    <script defer src="./js/event.js"></script>
     <script defer src="./js/javaScript.js"></script>
 </head>
 <body>
     <h1 id="title">Bienvenidos a la morada</h1>
-    <h2 id="title">Elige tu dia de reserva</h2>
+    
 
-    <ul id="diasList"></ul>
-
-    <select id="diasSelect"></select>
+    
 
     <script src="scripts.js"></script>
+    <article class="container">
+
+        <h1>"La cabaña del TE"</h1>
+        <hr>
+        <div class="containerTabla">
+            <table class="tabla">
+                <thead class="thead">
+                    <tr>
+                        <th>N°</th>
+                        <th>COMBO</th>
+                        <th>IMPORTE</th>
+                        <th>FINAL</th>
+                    </tr>
+                </thead>
+                <tbody id="cuerpo">
+                    <tr>
+                        <td>1 DIA </td>
+                        <td>(desayuno,almuerzo,merienda)</td>
+                        <td>1000.00</td>
+                        <td>1210.00</td>
+                    </tr>
+                    <tr>
+                        <td>3 DIAS </td>
+                        <td>(desayuno,almuerzo,merienda,cena)</td>
+                        <td>1000.00</td>
+                        <td>1210.00</td>
+                    </tr>
+                    <tr>
+                        <td>5 DIAS </td>
+                        <td>(desayuno,almuerzo,merienda,cena)</td>
+                        <td>1000.00</td>
+                        <td>1210.00</td>
+                    </tr>
+                    <tr>
+                        <td>7 DIAS</td>
+                        <td>(desayuno,almuerzo,merienda,cena)</td>
+                        <td>1000.00</td>
+                        <td>1210.00</td>
+                    </tr>
+                </tbody>
+            </table>
+            <ul id="diasList"></ul>
+    <h2 id="title">Elige tu dia de reserva</h2>
+    <select id="diasSelect"></select>
+            <div class="BTN">
+                <input type="number" id="codigo" placeholder="Código" >
+                <input type="text" id="descripcion" placeholder="Descripción del producto">
+                <input type="number" id="importe" placeholder="Importe">
+                <br><br>
+                <button class="button button-outline">cargar</button>
+            </div>
+        </div>
+    </article>
 </body>
 </html>
