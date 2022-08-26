@@ -19,6 +19,7 @@ h2{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif 
 }
 
+
 select{
     margin-top: 5px;
     padding: 5px;
@@ -27,7 +28,7 @@ select{
 }
 
 .containerTabla{
-    justify-content: center;
+    
     border-radius: 10px;
     padding: 5rem 5rem 5rem 5rem;
     
@@ -36,6 +37,9 @@ select{
 }
 
 .tabla{
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
     border: white solid 2px;
     justify-content:space-around;
     text-align: center;
@@ -56,8 +60,87 @@ thead{
 }
 
 .BTN{
+
     margin-top: 1rem;
     flex-direction: row;
     flex-wrap: wrap 2px;
 }
 
+.Job{
+    justify-content: center;
+    text-align: center;
+}
+.btnJob{
+    padding: 5px;
+    border: white solid 4px;
+    border-radius: 30%;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.formulario{
+  margin-top: 50px;
+  border: white solid 2px;
+}
+.formulary{
+    font-size: 2rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 15px;
+    color: #fff;
+    line-height: 40px;
+
+}
+
+label {
+    color: rgb(255, 255, 255);
+  }
+  
+  input {
+    font-size: x-large;
+  }
+  
+  select {
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  .hombre {
+    color: #fff;
+  }
+  
+  .mujer {
+    color: #fff;
+  }
+  
+
+  
+  button {
+    background-color: #500669;
+    color: #fff;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgba(110, 60, 116, 0.5);
+  }
+  
+  option {
+    font-size: 20px;
+    padding: 30px;
+  }
+
+  .inicio{
+    margin-top: 20px;
+    border-radius: 30%;
+    color: white;
+    font-size: 2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }

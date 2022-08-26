@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/estilo.css">
+    <title>Trabajo</title>
+</head>
+<body>
+    <a class="inicio" href="../index.html">Inicio</a>
+    <form class="formulario">
+        <div class="formulary">
+        <label for="nombre_apellido">Ingrese Nombre y Apellido</label>
+    <input type="text" name="nombre_apellido" placeholder="Nombre y Apellido..."/> <br> <br>
+    <label for="edad">Edad</label>
+    <input type="number" name="edad" placeholder="Edad..."/> <br> <br>
+    <label for="numero tel/cel">Numero tel/cel</label>
+    <input type="text" name="numero tel/cel" placeholder="Tel/Cel..."/> <br> <br>
+    <label for="email">Email</label>
+    <input type="email" name="email" placeholder="Email..."/> <br> <br>
+
+
+    <div>Hombre</div>
+        <input type="radio" name="sexo" value="Hombre" style="width:20px;height:20px;"/>
+    <div>Mujer</div>    
+        <input type="radio" name="sexo" value="Mujer" style="width:20px;height:20px;"/>
+
+
+
+    <br>
+
+        <div>¿Nivel de ingles?</div>
+    <select name="niveles">            
+        <option value="B">Basico</option>
+        <option value="M">Medio</option>
+        <option value="A">Avanzado</option>
+    </select>
+
+    <div>¿Resides en nuestra provincia?</div>
+    <select name="patologia">            
+        <option value="Si">Si</option>
+        <option value="No">No</option> <br>
+    </select> <br>
+
+    <div>Dejanos una breve descripcion sobre ti</div>
+    <textarea class="textarea" cols="2" rows="1"></textarea> <br>
+
+    <button class="Enviar">Enviar</button>
+    </div>
+</form>
+</body>
+</html>
