@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ubicación</title>
+	 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   		integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   		crossorigin=""/>		
+	<link rel="stylesheet" type="text/css" href="../CSS/estilo.css"/>
+    <a class="inicio" href="../index.html">Inicio</a>
+    <a class="inicio" href="trabajo.html">Trabaja con nosotros</a>	
+
+	<h1>Guía para llegar</h1>
+	<select name="select-location" id="select-location">
+		<option value="-1">Seleccione un lugar:</option>
+		<option value="-24.38570442764364, -65.09396494476533">Aeropuerto</option>
+        <option value="-24.2214504,-65.2719697">Terminal ombinus - Capital</option>
+        <option value="-23.9642307,-65.4597868">La morada</option>
+        
+					
+	</select>
+	<div id="map"></div>
+
+</head>
+<body>	
+
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   		integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   		crossorigin=""></script>   		
+	
+	<script src="../js/map.js"></script>
+</body>
+</html>
