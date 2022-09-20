@@ -19,6 +19,8 @@
             cabañaDos:'Cabaña Luna de miel',
             cabañaTres:'Cabaña Familiar',
             cabañaCuatro:'Cabaña Amigos',
+            cabañaCinco:'Cabaña Premium',
+            cabañaSeis:'Cabaña Navideña',
         }
         
     });

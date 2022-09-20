@@ -4,7 +4,95 @@
 }
 
 body{
-    background-color: darkslateblue;
+  background-color: #120121;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 400'%3E%3Cdefs%3E%3CradialGradient id='a' cx='396' cy='281' r='514' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23890B54'/%3E%3Cstop offset='1' stop-color='%23120121'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='148' x2='400' y2='333'%3E%3Cstop offset='0' stop-color='%23B26396' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23B26396' stop-opacity='0.5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='400'/%3E%3Cg fill-opacity='0.5'%3E%3Ccircle fill='url(%23b)' cx='267.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='532.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='400' cy='30' r='300'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+}
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffffff;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 85px;
+  padding: 5px 10%;
+  margin-bottom: 15px;
+}
+
+.header .logo {
+  cursor: pointer;
+}
+
+.header .logo img {
+  height: 70px;
+  width: auto;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.header .logo img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.header .nav-links {
+  font-family: 'Nunito', sans-serif;
+  font-size: 25px;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0%;
+}
+
+.header .nav-links li {
+  display: inline-block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 20px;
+}
+
+.header .nav-links li:hover {
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.header .nav-links li a {
+  font-size: 700;
+  color: #d63384;
+  text-decoration: none;
+}
+
+.header .nav-links li a:hover {
+  color: #3f0058;
+}
+
+.header .btn button {
+  font-size: 30px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  background-color: #3f0058;
+  color: #ffffff;
+  padding: 9px 25px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover {
+  background-color: #3f0058;
+  color: #d63384;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 h1{
@@ -59,7 +147,7 @@ thead{
     justify-content: center;
 }
 .btnUbi{
-  padding: 5px;
+    padding: 5px;
     border: white solid 4px;
     border-radius: 30%;
     color: white;
@@ -128,7 +216,17 @@ label {
   }
   
 
-  
+  .btnTienda{
+    padding: 5px;
+    border: white solid 4px;
+    border-radius: 30%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
   button {
     background-color: #500669;
     color: #fff;
@@ -164,4 +262,75 @@ label {
     left: 500px;
   
   }
+
+
+/* tienda */
+
+.item {
+  border: 2px solid rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.item-title {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+}
+
+.item-image {
+  height: 300px;
+  width: 100%;
+}
+
+.item-details {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px 15px;
+}
+
+.item-details > .item-price {
+  margin: 0;
+}
+
+/* ? SHOPPING CART */
+.shopping-cart-items {
+  padding: 20px 0px;
+}
+
+.shopping-cart-header {
+  border-bottom: 1px solid #ccc;
+}
+
+.shopping-cart-image {
+  max-width: 80px;
+  border-radius: 20px;
+}
+
+.shopping-cart-quantity-input {
+  color: rgb(34, 33, 33);
+  max-width: 45px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #eee;
+  padding: 5px;
+}
+
+h6{
+  color: white;
+}
+.item-price{
+  color: white;
+}
+.shopping-cart-total {
+  color: white;
+  min-height: 96px;
+}
+
+
+
+
   
