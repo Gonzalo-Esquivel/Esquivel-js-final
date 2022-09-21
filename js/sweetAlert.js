@@ -1,7 +1,7 @@
 (async () => {
     const {value: cabaña} = await Swal.fire({
         title:'Bienvenido a La Morada',
-        text:'Selecciona tu cabaña',
+        text:'Te gustaria visitarnos en ...',
         confirmButtonText: 'Seleccionar',
         padding: '1rem',
         backdrop: true,
@@ -12,21 +12,21 @@
         stopKeydownPropagation: false,
     
         input:'select',
-        inputPlaceholder:'Cabaña',
+        inputPlaceholder:'',
         inputValue:'',
         inputOptions:{
-            cabañaUno:'Cabaña Simple',
-            cabañaDos:'Cabaña Luna de miel',
-            cabañaTres:'Cabaña Familiar',
-            cabañaCuatro:'Cabaña Amigos',
-            cabañaCinco:'Cabaña Premium',
-            cabañaSeis:'Cabaña Navideña',
+            climaUno:'Verano',
+            climaDos:'Otoño',
+            climaTres:'Invierno',
+            climaCuatro:'Primavera',
+            
         }
         
     });
     if (cabaña){
         Swal.fire ({
-            title: `Disfrute su estancia`
+            title: `Consulta las fechas disponibles`,
+            text:  `Te esperamos`,
         })
     }
 }) ()
