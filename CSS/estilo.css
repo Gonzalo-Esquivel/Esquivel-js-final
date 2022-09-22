@@ -266,71 +266,80 @@ label {
 
 /* tienda */
 
-.item {
-  border: 2px solid rgb(255, 255, 255);
-  padding: 10px;
-  border-radius: 20px;
+
+header, .alert{
+  z-index: 100;
 }
 
-.item-title {
-  color: white;
-  text-transform: uppercase;
+.text-primary{
   text-align: center;
-  font-weight: 600;
 }
 
-.item-image {
-  height: 300px;
+.description{
+  color: rgb(64, 64, 64)!important;
+  height: 25px;
+  overflow: hidden;
+  transition: height .3s ease-in .3s;
+}
+.description:hover{
+  height: 80px;
+}
+.carrito{
+  min-height: 80vh;
+  max-width: 1000px;
+  margin: 0 auto;
   width: 100%;
 }
-
-.item-details {
-  color: white;
+.table__productos{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 20px 0px 15px;
+}
+.table__productos > img{
+  width: 9rem;
+  object-fit: contain;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+.table__cantidad > input{
+  width: 40px;
+  border: none;
+  outline: 0;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+.hide, .remove{
+  display: none;
 }
 
-.item-details > .item-price {
-  margin: 0;
+.nav-pills .nav-link.active{
+  background-color: green;
 }
 
-/* ? SHOPPING CART */
-.shopping-cart-items {
-  padding: 20px 0px;
+.nav-pills .nav-link{
+  color: orange;
+}
+.container-fluid{
+  width: fit-content;
+}
+.btnbtn-primarybutton{
+  background-color: #d63384;
 }
 
-.shopping-cart-header {
-  border-bottom: 1px solid #ccc;
+.btn-primary{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  background-color: green;
+  border-color: green;
 }
 
-.shopping-cart-image {
-  max-width: 80px;
-  border-radius: 20px;
+.text-primary{
+  color: black!important;
 }
 
-.shopping-cart-quantity-input {
-  color: rgb(34, 33, 33);
-  max-width: 45px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background: #eee;
-  padding: 5px;
-}
-
-h6{
-  color: white;
-}
-.item-price{
-  color: white;
-}
-.shopping-cart-total {
-  color: white;
-  min-height: 96px;
+.card{
+  background: #ffffff!important;
 }
 
 
-
-
-  
