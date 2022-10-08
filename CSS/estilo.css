@@ -9,10 +9,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 background-attachment: fixed;
 background-size: cover;
 }
+
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   background-color: #ffffff;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -341,5 +342,22 @@ header, .alert{
 .card{
   background: #ffffff!important;
 }
+
+table{
+  display: grid!important;
+  align-items: center!important;
+
+}
+
+.table-bordered{
+  margin-top: 10rem;
+  margin-right: 400px!important;
+  display: grid!important;
+  justify-content: center;
+
+}
+
+
+
 
 
